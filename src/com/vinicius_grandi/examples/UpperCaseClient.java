@@ -16,15 +16,15 @@ public class UpperCaseClient {
         Scanner scanner = new Scanner(System.in);
         String line = scanner.nextLine();
 
-        // it writes the message through the socket
+        // write the message through the socket
         output.writeUTF(line);
 
-        // it gets the processed message from server and prints it
+        // get the processed message from server and prints it
         DataInputStream input = new DataInputStream(socket.getInputStream());
         String upperCaseMessage = input.readUTF();
         System.out.println(upperCaseMessage);
 
-        // closing all sockets and stream
+        // close all sockets and streams
         input.close();
         output.close();
         socket.close();

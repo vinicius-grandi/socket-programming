@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cea9ac0a-7837-4eb5-b9e6-5a98382f75c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket-programming.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vinicius_grandi/examples/UpperCaseClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vinicius_grandi/examples/UpperCaseServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vinicius_grandi/examples/ObjectClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vinicius_grandi/examples/ObjectServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vinicius_grandi/examples/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vinicius_grandi/examples/ThreadSockets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vinicius_grandi/examples/ThreadedUppercaseServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vinicius_grandi/examples/UpperCaseClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vinicius_grandi/examples/UpperCaseClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vinicius_grandi/examples/UpperCaseServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vinicius_grandi/examples/UpperCaseServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +44,46 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.UpperCaseClient">
+  <component name="RunManager" selected="Application.ObjectServer">
+    <configuration name="ObjectClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vinicius_grandi.examples.ObjectClient" />
+      <module name="socket-programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vinicius_grandi.examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObjectServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vinicius_grandi.examples.ObjectServer" />
+      <module name="socket-programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vinicius_grandi.examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadedUppercaseServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vinicius_grandi.examples.ThreadedUppercaseServer" />
+      <module name="socket-programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vinicius_grandi.examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UpperCaseClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.vinicius_grandi.examples.UpperCaseClient" />
       <module name="socket-programming" />
@@ -74,7 +112,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObjectClient" />
+        <item itemvalue="Application.ObjectServer" />
         <item itemvalue="Application.UpperCaseClient" />
+        <item itemvalue="Application.ThreadedUppercaseServer" />
         <item itemvalue="Application.UpperCaseServer" />
       </list>
     </recent_temporary>
